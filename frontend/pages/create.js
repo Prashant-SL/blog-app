@@ -3,7 +3,6 @@ import React from "react";
 const CreateBlog = () => {
   return (
     <div className="w-5/6 mx-auto mt-4 lg:mt-6">
-      CreateBlog
       <form>
         <div className="mb-6 lg:flex items-center gap-x-4 mt-4">
           <p className="mb-2 text-sm lg:text-base font-medium text-gray-900">

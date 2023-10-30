@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import TopCategoryPostCard from "./TopCategoryPostCard";
+import { backendUrl } from "../utils/url-helper";
+import axios from "axios";
 
-const TopCategoryPosts = () => {
+const TopCategoryPosts = ({ topCategories }) => {
   return (
     <div className="mx-auto">
       <div className="flex mb-6 relative justify-between items-center">
@@ -12,6 +14,7 @@ const TopCategoryPosts = () => {
           Read all
         </h2>
       </div>
+      {}
       <TopCategoryPostCard />
       <TopCategoryPostCard />
     </div>

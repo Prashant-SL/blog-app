@@ -8,8 +8,8 @@ const TopCategoryPostCard = () => {
       className="flex flex-col mb-4 items-center bg-white border rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100"
     >
       <Image
-        width="400"
-        height="425"
+        width="300"
+        height="675"
         className="rounded-l-lg object-cover object-center"
         src="https://flowbite.com/docs/images/blog/image-1.jpg"
         alt=""

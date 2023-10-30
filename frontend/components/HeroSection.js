@@ -1,6 +1,8 @@
+import axios from "axios";
 import React from "react";
 
-const HeroSection = () => {
+const HeroSection = ({ posts }) => {
+  // console.log("posts", posts);
   return (
     <section className="pb-10 border-t-2 bg-gradient-to-b from-blue-50 to-transparent">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">

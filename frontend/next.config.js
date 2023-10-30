@@ -6,7 +6,12 @@ module.exports = () => {
     swcMinify: true,
     poweredByHeader: false,
     images: {
-      domains: ["flowbite.com", "via.placeholder.com", "placeholder.com"],
+      domains: [
+        "flowbite.com",
+        "via.placeholder.com",
+        "placeholder.com",
+        "localhost",
+      ],
     },
   };
 };
